@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-color: darkblue; */
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.home {
+    background-color: rgb(16, 16, 112);
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .home {
+        margin-left: 3rem;
+    }
+}
+
+.header .logo {
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    /* color: white; */
+}
+
+.header .logo:hover {
+    color: red;
+}
+
+.header .navbar {
+    font-size: 1.1rem;
+    margin-right: 8rem;
+    margin-top: 2.5rem;
+}
+
+.header .navbar a {
+    text-decoration: none;
+    padding: 0 .5rem;
+    color: white;
+    transition: .5s;
+}
+
+.header .navbar a:hover {
+    color: red;
+}
+
+.header .navbar i:hover {
+    color: red;
+}
+
+.header .navbar i {
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 6%;
+}
+
+.content .text h1 {
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    color: white;
+}
+
+.content .text p {
+    font-size: 1rem;
+    padding: .2rem;
+    line-height: 1.5rem;
+    color: rgb(197, 191, 191);
+}
+
+.btn {
+    padding: .7rem 2rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+    border: 2px solid white;
+    background: none;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: black;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+}
+
+.content .text {
+    flex: 1 1 40rem;
+}
+
+.content .image {
+    flex: 1 1 40rem;
+    margin-top: 4rem;
+}
+
+.content .image img {
+    height: 33rem;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .content .image img {
+        height: 20rem;
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    .btn2 {
+        margin-top: 1rem;
+    }
+}
+
+.subscribe {
+    margin-top: 100px;
+}
+
+.subscribe input {
+    padding: .5rem 1rem;
+}
+
+.btn2 {
+    padding: .6rem 1rem;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+}
+
+.btn2:hover {
+    border: 1px solid red;
+    background: none;
+    color: red;
+}
+
+.feature {
+    padding: 2rem 6%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .feature {
+        margin-left: 3rem;
+        margin-top: 20rem;
+    }
+}
+
+.feature .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.feature .box-container .box {
+    flex: 1 1 20rem;
+    background-color: rgb(16, 16, 112);
+    line-height: 1.8rem;
+    border-top: 5px solid red;
+    padding: 8rem 2rem;
+    color: white;
+}
+
+.feature h2 {
+    font-size: 1.7rem;
+    margin-bottom: .5rem;
+}
+
+.feature .text {
+    color: #777;
+    margin-bottom: 4rem;
+}
+
+.feature .box-container .box .iconn {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: red;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.footer .end {
+    background-color: rgb(16, 16, 112);
+    padding: 4rem 0;
+}
+
+@media (max-width: 768px) {}
